@@ -16,7 +16,7 @@
     "src/",
     "assets/"
   ],
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "GitBook plugin that provide interactive JavaScript console",
   "main": "./gitbook-plugin-js-console.js",
   "engines": {
@@ -28,7 +28,8 @@
   "scripts": {
     "build": "NODE_ENV=production webpack -p",
     "watch": "webpack -w",
-    "prepublish": "npm run --if-present build"
+    "prepublish": "npm run --if-present build",
+    "install": "NODE_ENV=production webpack -p"
   },
   "keywords": [
     "gitbook",
