@@ -28,8 +28,7 @@
   "scripts": {
     "build": "NODE_ENV=production webpack -p",
     "watch": "webpack -w",
-    "prepublish": "npm run --if-present build",
-    "install": "npm run --if-present build"
+    "prepublish": "npm run --if-present build"
   },
   "keywords": [
     "gitbook",
